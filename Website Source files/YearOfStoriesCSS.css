@@ -1,0 +1,204 @@
+body {
+	background-image: url("Background.jpg");
+	background-color: F5F5F5;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: lightblue;
+}
+p {
+	Text-align: left;
+	font-size: 20px;
+	font-family:verdana;
+}
+li {
+	Text-align: left;
+	font-size: 20px;
+	font-family:verdana;
+}
+img:hover {
+	opacity: 0.5;
+}
+.Individual_title {
+	padding: 10px;
+	text-align:center;
+	font-size: 40px;
+	font-family:verdana;
+	margin: 30px;
+	border-radius: 30px;
+	background-color: F5F5F5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+.Individual_text {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	word-wrap: break-word;
+	Text-align: left;
+	font-size: 20px;
+	margin: 30px;
+	border-radius: 30px;
+	background-color: F5F5F5;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+.Navigation_bar {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	min-height: 50px;
+	background-color: lightgrey;
+	width: 100%;
+}
+.Navigation_bar a{
+	flex: 33.33%:
+	text-align: center;
+	padding: 16px 18px;
+	font-size: 19px;
+	font-weight: bold;
+	font-family: verdana;
+	color: F5F5F5;
+}
+.Navigation_bar a:hover {
+	background-color: black;
+	color: lightblue;
+}
+.Navigation_bar a.active {
+	background-color: lightblue;
+	color: F5F5F5;
+}
+.Sticky {
+	position: fixed;
+	top:0;
+	width:100%
+}
+.Row {
+	display: flex;
+}
+.Row_Work {
+	display: flex;
+}
+.Title {
+	text-align:center;
+	font-size: 30px;
+	font-family:verdana;
+	text-decoration-line: underline;
+}
+.About_title {
+	text-align:left;
+	font-size: 30px;
+	font-family:verdana;
+	text-decoration-line: underline;
+}
+.Title_list {
+	text-align:center;
+	font-size: 30px;
+	font-family:verdana;
+	text-decoration-line: underline;
+	margin:20px;
+}
+.Text {
+	Text-align: left;
+	font-size: 20px;
+	font-family:verdana;
+}
+.Footer {
+	margin-top: 20px;
+	display: flex;
+	font-size: 20px;
+	font-family: verdana;
+	font-weight: bold;
+	color: F5F5F5;
+	justify-content: center;
+	height: 75px;
+	background-color: lightgrey;
+	width: 100%;
+}
+@media only screen and (max-width: 992px) {
+	.About_column {
+		flex-direction: column;
+	}
+	.About_left {
+		width: 100%;
+	}
+	.About_right {
+		width: 100%;
+	}
+	.Footer {
+		text-align: center;
+	}
+	.Navigation_bar a{
+	padding: 8px 9px;
+	font-size: 14px;
+	}
+	.About {
+		width: 550px;
+	}
+	img.DevSoc {
+		max-height: 250px;
+		width: auto;
+	}
+	img.Onlinecourses {
+		max-height: 200px;
+		width: auto;
+	}
+	img.Work {
+		max-height: 200px;
+		width: auto;
+	}
+	img.About {
+		height:300px;
+		width: auto;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.Page_head_text {
+		font-size: 50px;
+	}
+	.Row_Work {
+		flex-direction: column;
+		min-height: 1000px;
+	}
+	.row {
+		flex-direction: column;
+		min-height: 1000px;
+	}
+	.About_left {
+		width: 100%;
+	}
+	.About_right {
+		width: 100%;
+	}
+	.Column {
+		width: 100%;
+	}
+	.Footer {
+	}
+	.About {
+		width: 90%;
+	}
+	img.About {
+		height:200px;
+		width: auto;
+	}
+	img.DevSoc {
+		max-height: 450px;
+		width: auto;
+	}
+	img.Onlinecourses {
+		max-height: 400px;
+		width: auto;
+	}
+	img.Work {
+		max-width: 500px;
+		height: auto;
+	}
+}
